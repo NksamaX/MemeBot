@@ -31,9 +31,9 @@ bot.onText(RegExp("\/meme") , (msg) => {
 
 bot.onText(RegExp("\/start"),  (msg) => {
 
-    bot.sendMessage(msg.chat.id , "Hello , use /meme to get a new meme");
+    bot.sendMessage(msg.chat.id , "<i> Hello , use /meme to get a new meme </i>", {parse_mode: "HTML"})
 
-});
+})
 
 bot.on("callback_query" , (callbackQuery) => {
     const msg = callbackQuery.message
