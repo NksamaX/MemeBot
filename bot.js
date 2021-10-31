@@ -31,7 +31,7 @@ bot.onText(RegExp("\/meme") , (msg) => {
 
 bot.onText(RegExp("\/start"),  (msg) => {
 
-    bot.sendPhoto(msg.chat.id , "Hello , use /meme to get a new meme");
+    bot.sendMessage(msg.chat.id , "Hello , use /meme to get a new meme");
 
 });
 
