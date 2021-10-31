@@ -1,0 +1,20 @@
+{
+  "name": "meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.54.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bot": "node bot.js"
+  },
+  "keywords": [
+    "meme",
+    "js"
+  ],
+  "author": "nksama",
+  "license": "ISC"
+}
